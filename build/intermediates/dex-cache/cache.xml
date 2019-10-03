@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/approachit/AndroidStudioProjects/Towing_app1/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="/home/approachit/AndroidStudioProjects/Towing_app1/app/build/intermediates/pre-dexed/debug/classes-be77fc10b2e6e6cf3c6112b2db464e116a967f41.jar" />
+    </item>
+    <item
+        jar="/home/approachit/AndroidStudioProjects/Towing_app1/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="/home/approachit/AndroidStudioProjects/Towing_app1/app/build/intermediates/pre-dexed/debug/classes-11577dd0f36fd59efae70e400f2a17a8bb8e2d16.jar" />
+    </item>
+    <item
+        jar="/home/approachit/AndroidStudioProjects/Towing_app1/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/home/approachit/AndroidStudioProjects/Towing_app1/app/build/intermediates/pre-dexed/debug/classes-27b71861bef88a1ae431c3bc21531fcc71e1e679.jar" />
+    </item>
+    <item
+        jar="/home/approachit/android-sdk-linux/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/home/approachit/AndroidStudioProjects/Towing_app1/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1-15ee307a9257830acf8b33c35689d63cda32b6f3.jar" />
+    </item>
+    <item
+        jar="/home/approachit/AndroidStudioProjects/Towing_app1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/home/approachit/AndroidStudioProjects/Towing_app1/app/build/intermediates/pre-dexed/debug/classes-f8af562a0af6e25a283641a12a51744b5f404703.jar" />
+    </item>
+    <item
+        jar="/home/approachit/AndroidStudioProjects/Towing_app1/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/home/approachit/AndroidStudioProjects/Towing_app1/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1-c80d636e862c71af014f550413d1a6caa7d04ed4.jar" />
+    </item>
+
+</items>

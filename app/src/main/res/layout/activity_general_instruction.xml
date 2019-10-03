@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:weightSum="100" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:background="@drawable/background"
+        android:orientation="horizontal"
+        android:weightSum="10" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:id="@+id/gen_home">
+
+            <ImageView
+                android:id="@+id/imghome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/home2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6.1"
+            android:gravity="center"
+            android:weightSum="3" >
+
+            <TextView
+                android:id="@+id/txtstandardequipment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="General Instructions"
+                android:textColor="#fff"
+                android:textSize="22sp" />
+        </LinearLayout>
+        
+        <LinearLayout 
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.8"
+            android:gravity="center">
+            
+             <ImageView
+                android:id="@+id/imgIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/main_truck_high" />
+            
+        </LinearLayout>
+        
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="90"
+        android:gravity="center" >
+
+        <!--<TextView-->
+            <!--android:id="@+id/text"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="This Manual is written to address general towing and road service procedures, as well as specific procedures approved by the respective auto manufacturers, using current industry-standard wheel lift ansd car carrier equipment."-->
+            <!--android:textColor="#000"-->
+            <!--android:textSize="22dp" />-->
+
+        <ExpandableListView
+            android:id="@+id/lvExp"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,269 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:2:1-114:12
+INJECTED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:2:1-114:12
+INJECTED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:2:1-114:12
+INJECTED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:2:1-114:12
+MERGED from [com.android.support:design:23.1.1] /home/paritosh/.gradle/caches/transforms-2/files-2.1/a5c9c452891ec4c960663a50a8128a96/design-23.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:23.1.1] /home/paritosh/.gradle/caches/transforms-2/files-2.1/08f0eaeb974159cf8dee0ccc0d0334e3/appcompat-v7-23.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:recyclerview-v7:23.1.1] /home/paritosh/.gradle/caches/transforms-2/files-2.1/5a5db79ae5145b1e93f9648cc9df472b/recyclerview-v7-23.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:23.1.1] /home/paritosh/.gradle/caches/transforms-2/files-2.1/63644aef90f48b931f553e2e391be3d5/support-v4-23.1.1/AndroidManifest.xml:17:1-24:12
+INJECTED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:2:1-114:12
+INJECTED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:2:1-114:12
+INJECTED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:2:1-114:12
+	package
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:3:5-37
+		INJECTED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml
+		INJECTED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml
+		INJECTED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml
+		INJECTED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:7:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:8:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:9:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:10:5-80
+	android:name
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:10:22-77
+application
+ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:12:5-112:19
+MERGED from [com.android.support:design:23.1.1] /home/paritosh/.gradle/caches/transforms-2/files-2.1/a5c9c452891ec4c960663a50a8128a96/design-23.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:23.1.1] /home/paritosh/.gradle/caches/transforms-2/files-2.1/a5c9c452891ec4c960663a50a8128a96/design-23.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.1.1] /home/paritosh/.gradle/caches/transforms-2/files-2.1/08f0eaeb974159cf8dee0ccc0d0334e3/appcompat-v7-23.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.1.1] /home/paritosh/.gradle/caches/transforms-2/files-2.1/08f0eaeb974159cf8dee0ccc0d0334e3/appcompat-v7-23.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] /home/paritosh/.gradle/caches/transforms-2/files-2.1/63644aef90f48b931f553e2e391be3d5/support-v4-23.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] /home/paritosh/.gradle/caches/transforms-2/files-2.1/63644aef90f48b931f553e2e391be3d5/support-v4-23.1.1/AndroidManifest.xml:22:5-20
+	android:supportsRtl
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:16:9-35
+	android:label
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:15:9-41
+	android:icon
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:14:9-43
+	android:allowBackup
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:13:9-35
+	android:theme
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:17:9-40
+activity#com.example.towing_app.MainActivity
+ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:18:9-21:52
+	android:screenOrientation
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:21:13-49
+	android:label
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:20:13-45
+	android:name
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:19:13-41
+activity#com.example.towing_app.Standardequipment
+ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:22:9-25:53
+	android:screenOrientation
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:25:13-50
+	android:label
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:24:13-69
+	android:name
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:23:13-46
+activity#com.example.towing_app.Myimages
+ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:26:9-29:52
+	android:screenOrientation
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:29:13-49
+	android:label
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:28:13-60
+	android:name
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:27:13-37
+activity#com.example.towing_app.Towing
+ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:30:9-39:20
+	android:screenOrientation
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:33:13-49
+	android:label
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:32:13-58
+	android:name
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:31:13-35
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:34:13-38:29
+action#android.intent.action.MAIN
+ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:35:17-69
+	android:name
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:35:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:37:17-77
+	android:name
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:37:27-74
+activity#com.example.towing_app.General_instruction
+ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:40:9-43:52
+	android:screenOrientation
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:43:13-49
+	android:label
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:42:13-71
+	android:name
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:41:13-48
+activity#com.example.towing_app.Search
+ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:44:9-47:52
+	android:screenOrientation
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:47:13-49
+	android:label
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:46:13-58
+	android:name
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:45:13-35
+activity#com.example.towing_app.AllManufacture
+ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:48:9-51:52
+	android:screenOrientation
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:51:13-49
+	android:label
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:50:13-67
+	android:name
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:49:13-43
+activity#com.example.towing_app.AllModels
+ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:52:9-55:52
+	android:screenOrientation
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:55:13-49
+	android:label
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:54:13-62
+	android:name
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:53:13-38
+activity#com.example.towing_app.Year
+ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:56:9-59:52
+	android:screenOrientation
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:59:13-49
+	android:label
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:58:13-56
+	android:name
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:57:13-33
+activity#com.example.towing_app.SearchCar
+ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:60:9-63:52
+	android:screenOrientation
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:63:13-49
+	android:label
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:62:13-62
+	android:name
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:61:13-38
+activity#com.example.towing_app.TowInfo
+ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:64:9-67:52
+	android:screenOrientation
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:67:13-49
+	android:label
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:66:13-60
+	android:name
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:65:13-36
+activity#com.example.towing_app.GenJumpStart
+ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:68:9-70:52
+	android:screenOrientation
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:70:13-49
+	android:name
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:69:13-41
+activity#com.example.towing_app.MotorCycleJumpStart
+ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:71:9-73:52
+	android:screenOrientation
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:73:13-49
+	android:name
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:72:13-48
+activity#com.example.towing_app.UnderVehicle
+ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:74:9-76:52
+	android:screenOrientation
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:76:13-49
+	android:name
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:75:13-41
+activity#com.example.towing_app.SpecialOil
+ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:77:9-79:52
+	android:screenOrientation
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:79:13-49
+	android:name
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:78:13-39
+activity#com.example.towing_app.Disclaimer
+ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:80:9-83:52
+	android:screenOrientation
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:83:13-49
+	android:label
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:82:13-62
+	android:name
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:81:13-39
+activity#com.example.towing_app.TextTowinfo
+ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:84:9-87:52
+	android:screenOrientation
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:87:13-49
+	android:label
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:86:13-64
+	android:name
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:85:13-40
+activity#com.example.towing_app.TowImages
+ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:88:9-91:52
+	android:screenOrientation
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:91:13-49
+	android:label
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:90:13-62
+	android:name
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:89:13-38
+activity#com.example.towing_app.ServiceInfo
+ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:92:9-95:52
+	android:screenOrientation
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:95:13-49
+	android:label
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:94:13-64
+	android:name
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:93:13-40
+activity#com.example.towing_app.CarInfo
+ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:96:9-99:52
+	android:screenOrientation
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:99:13-49
+	android:label
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:98:13-60
+	android:name
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:97:13-36
+activity#com.example.towing_app.TowLimits
+ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:100:9-103:52
+	android:screenOrientation
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:103:13-49
+	android:label
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:102:13-62
+	android:name
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:101:13-38
+activity#com.example.towing_app.Details_table
+ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:104:9-107:59
+	android:label
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:106:13-65
+	android:theme
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:107:13-56
+	android:name
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:105:13-42
+activity#com.example.towing_app.JSPrecaution
+ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:108:9-111:68
+	android:label
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:110:13-64
+	android:theme
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:111:13-56
+	android:name
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml:109:13-41
+uses-sdk
+INJECTED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml
+INJECTED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:23.1.1] /home/paritosh/.gradle/caches/transforms-2/files-2.1/a5c9c452891ec4c960663a50a8128a96/design-23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:23.1.1] /home/paritosh/.gradle/caches/transforms-2/files-2.1/a5c9c452891ec4c960663a50a8128a96/design-23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.1.1] /home/paritosh/.gradle/caches/transforms-2/files-2.1/08f0eaeb974159cf8dee0ccc0d0334e3/appcompat-v7-23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.1.1] /home/paritosh/.gradle/caches/transforms-2/files-2.1/08f0eaeb974159cf8dee0ccc0d0334e3/appcompat-v7-23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.1.1] /home/paritosh/.gradle/caches/transforms-2/files-2.1/5a5db79ae5145b1e93f9648cc9df472b/recyclerview-v7-23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.1.1] /home/paritosh/.gradle/caches/transforms-2/files-2.1/5a5db79ae5145b1e93f9648cc9df472b/recyclerview-v7-23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] /home/paritosh/.gradle/caches/transforms-2/files-2.1/63644aef90f48b931f553e2e391be3d5/support-v4-23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] /home/paritosh/.gradle/caches/transforms-2/files-2.1/63644aef90f48b931f553e2e391be3d5/support-v4-23.1.1/AndroidManifest.xml:20:5-43
+INJECTED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml
+INJECTED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml
+		INJECTED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml
+		ADDED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml
+		INJECTED from /home/paritosh/Downloads/Towing_app1/app/src/main/AndroidManifest.xml

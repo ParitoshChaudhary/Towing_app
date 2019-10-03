@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.towing_app"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/main_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Standardequipment"
+            android:label="@string/title_activity_standardequipment"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Myimages"
+            android:label="@string/title_activity_myimages"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Towing"
+            android:label="@string/title_activity_towing"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".General_instruction"
+            android:label="@string/title_activity_general_instruction"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Search"
+            android:label="@string/title_activity_search"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AllManufacture"
+            android:label="@string/title_activity_all_manufacture"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AllModels"
+            android:label="@string/title_activity_all_models"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Year"
+            android:label="@string/title_activity_year"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SearchCar"
+            android:label="@string/title_activity_search_car"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TowInfo"
+            android:label="@string/title_activity_tow_info"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GenJumpStart"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MotorCycleJumpStart"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UnderVehicle"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SpecialOil"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Disclaimer"
+            android:label="@string/title_activity_disclaimer"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TextTowinfo"
+            android:label="@string/title_activity_text_towinfo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TowImages"
+            android:label="@string/title_activity_tow_images"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ServiceInfo"
+            android:label="@string/title_activity_service_info"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CarInfo"
+            android:label="@string/title_activity_car_info"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TowLimits"
+            android:label="@string/title_activity_tow_limits"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Details_table"
+            android:label="@string/title_activity_details_table"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".JSPrecaution"
+            android:label="@string/title_activity_jsprecaution"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

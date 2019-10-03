@@ -1,0 +1,972 @@
+
+
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="200" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:background="@drawable/background"
+        android:orientation="horizontal"
+        android:weightSum="10" >
+
+        <LinearLayout
+            android:id="@+id/model_home"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/imghome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/home2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:gravity="center"
+            android:weightSum="3" >
+
+            <TextView
+                android:id="@+id/txtallmodels"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tow Information"
+                android:textColor="#fff"
+                android:textSize="22dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/imgIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/main_truck_high" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:background="#fff"
+        android:weightSum="180"
+        android:layout_weight="180"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:layout_weight="180"
+            android:weightSum="32"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+            <LinearLayout
+                android:id="@+id/layout1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:orientation="vertical"
+                android:weightSum="10" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:gravity="center" >
+
+                    <TextView
+                        android:id="@+id/texttowinfo1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tow Info "
+                        android:textColor="#044684"
+                        android:textSize="28dp"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="7" >
+
+
+
+                    <TextView
+                        android:id="@+id/texttowinfodetails1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:layout_marginTop="8dp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:id="@+id/tt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/caution1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:orientation="vertical"
+                android:weightSum="10" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:gravity="center" >
+
+                    <TextView
+                        android:id="@+id/textCaution1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Caution "
+                        android:textColor="#EB9100"
+                        android:textSize="28dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="7" >
+
+                    <ScrollView
+                        android:id="@+id/SCROLLER_ID2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:fillViewport="true"
+                        android:scrollbars="vertical" >
+
+                        <TextView
+                            android:id="@+id/textCaution1info"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#000"
+                            android:textSize="20dp"
+                            android:layout_marginTop="8dp" />
+                    </ScrollView>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_weight="1"
+                >
+
+                <!--         android:visibility="visible"> -->
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/Caution2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:weightSum="10" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:gravity="center" >
+
+                    <TextView
+                        android:id="@+id/textCaution2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Caution "
+                        android:textColor="#EB9100"
+                        android:textSize="28dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="7" >
+
+                    <ScrollView
+                        android:id="@+id/SCROLLER_ID3"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:fillViewport="true"
+                        android:scrollbars="vertical" >
+
+                        <TextView
+                            android:id="@+id/textcaution2info"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#000"
+                            android:textSize="20dp"
+                            android:layout_marginTop="8dp"/>
+                    </ScrollView>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_weight="1"
+                >
+
+            </LinearLayout>
+
+                 <LinearLayout
+                     android:id="@+id/Caution3"
+                     android:layout_width="match_parent"
+                     android:layout_height="0dp"
+                     android:layout_weight="1"
+                     android:orientation="vertical"
+                     android:weightSum="10" >
+
+                     <LinearLayout
+                         android:layout_width="match_parent"
+                         android:layout_height="0dp"
+                         android:layout_weight="3"
+                         android:gravity="center" >
+
+                         <TextView
+                             android:id="@+id/textcaution3"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:text="Caution"
+                             android:textColor="#EB9100"
+                             android:textSize="28dp" />
+                     </LinearLayout>
+
+                     <LinearLayout
+                         android:layout_width="match_parent"
+                         android:layout_height="0dp"
+                         android:layout_weight="7" >
+
+                         <ScrollView
+                             android:id="@+id/SCROLLER_ID4"
+                             android:layout_width="fill_parent"
+                             android:layout_height="wrap_content"
+                             android:fillViewport="true"
+                             android:scrollbars="vertical" >
+
+                             <TextView
+                                 android:id="@+id/textcaution3info"
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                                 android:textColor="#000"
+                                 android:textSize="20dp"
+                                  android:layout_marginTop="18dp"/>
+                         </ScrollView>
+                     </LinearLayout>
+                 </LinearLayout>
+
+            <!--      <LinearLayout  -->
+            <!--         android:layout_width="match_parent" -->
+            <!--         android:layout_height="15dp" -->
+            <!--         android:layout_weight="1" -->
+            <!--         > -->
+
+            <!--     </LinearLayout> -->
+
+            <!--     <LinearLayout -->
+            <!--         android:id="@+id/jumpstarting" -->
+            <!--         android:layout_width="match_parent" -->
+            <!--         android:layout_height="0dp" -->
+            <!--         android:layout_weight="1" -->
+            <!--         android:orientation="vertical" -->
+            <!--         android:weightSum="10" > -->
+
+            <!--         <LinearLayout -->
+            <!--             android:layout_width="match_parent" -->
+            <!--             android:layout_height="0dp" -->
+            <!--             android:layout_weight="3" -->
+            <!--             android:gravity="center" > -->
+
+            <!--             <TextView -->
+            <!--                 android:id="@+id/textjumpstarting" -->
+            <!--                 android:layout_width="wrap_content" -->
+            <!--                 android:layout_height="wrap_content" -->
+            <!--                 android:text="Jump Starting " -->
+            <!--                 android:textColor="#ffffff" -->
+            <!--                 android:textSize="28dp" /> -->
+            <!--         </LinearLayout> -->
+
+            <!--         <LinearLayout -->
+            <!--             android:layout_width="match_parent" -->
+            <!--             android:layout_height="0dp" -->
+            <!--             android:layout_weight="7" > -->
+
+            <!--             <ScrollView -->
+            <!--                 android:id="@+id/SCROLLER_ID5" -->
+            <!--                 android:layout_width="fill_parent" -->
+            <!--                 android:layout_height="wrap_content" -->
+            <!--                 android:fillViewport="true" -->
+            <!--                 android:scrollbars="vertical" > -->
+
+            <!--                 <TextView -->
+            <!--                     android:id="@+id/textjumpstartinginfo" -->
+            <!--                     android:layout_width="wrap_content" -->
+            <!--                     android:layout_height="wrap_content" -->
+            <!--                     android:textColor="#ffffff" -->
+            <!--                     android:textSize="20dp" -->
+            <!--                      android:layout_marginTop="18dp" /> -->
+            <!--             </ScrollView> -->
+            <!--         </LinearLayout> -->
+            <!--     </LinearLayout> -->
+
+            <!--      <LinearLayout  -->
+            <!--         android:layout_width="match_parent" -->
+            <!--         android:layout_height="15dp" -->
+            <!--         android:layout_weight="1" -->
+            <!--         > -->
+
+            <!--     </LinearLayout> -->
+
+
+            <LinearLayout
+                android:id="@+id/electronickey"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:weightSum="10" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:gravity="center" >
+
+                    <TextView
+                        android:id="@+id/textelectronickey"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Electronic Key "
+                        android:textColor="#044684"
+                        android:textSize="28dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="7" >
+
+                    <ScrollView
+                        android:id="@+id/SCROLLER_ID6"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:fillViewport="true"
+                        android:scrollbars="vertical" >
+
+                        <TextView
+                            android:id="@+id/textelectronickeyinfo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#000"
+                            android:textSize="20dp"
+                            android:layout_marginTop="8dp" />
+                    </ScrollView>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_weight="1"
+                >
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ElectronicParkBrake"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:weightSum="10" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:gravity="center" >
+
+                    <TextView
+                        android:id="@+id/textElectronicParkBrake"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Electronic Park Brake "
+                        android:textColor="#044684"
+                        android:textSize="28dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="7" >
+
+                    <ScrollView
+                        android:id="@+id/SCROLLER_ID7"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:fillViewport="true"
+                        android:scrollbars="vertical" >
+
+                        <TextView
+                            android:id="@+id/textElectronicParkBrakeinfo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#000"
+                            android:textSize="20dp"
+                            android:layout_marginTop="8dp"/>
+                    </ScrollView>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_weight="1"
+                >
+
+            </LinearLayout>
+
+
+            <!--     <LinearLayout -->
+            <!--         android:id="@+id/FuelDelivery" -->
+            <!--         android:layout_width="match_parent" -->
+            <!--         android:layout_height="0dp" -->
+            <!--         android:layout_weight="1" -->
+            <!--         android:orientation="vertical" -->
+            <!--         android:weightSum="10" > -->
+
+            <!--         <LinearLayout -->
+            <!--             android:layout_width="match_parent" -->
+            <!--             android:layout_height="0dp" -->
+            <!--             android:layout_weight="3" -->
+            <!--             android:gravity="center" > -->
+
+            <!--             <TextView -->
+            <!--                 android:id="@+id/textFuelDelivery" -->
+            <!--                 android:layout_width="wrap_content" -->
+            <!--                 android:layout_height="wrap_content" -->
+            <!--                 android:text="Fuel Delivery " -->
+            <!--                 android:textColor="#ffffff" -->
+            <!--                 android:textSize="28dp" /> -->
+            <!--         </LinearLayout> -->
+
+            <!--         <LinearLayout -->
+            <!--             android:layout_width="match_parent" -->
+            <!--             android:layout_height="0dp" -->
+            <!--             android:layout_weight="7" > -->
+
+            <!--             <ScrollView -->
+            <!--                 android:id="@+id/SCROLLER_ID8" -->
+            <!--                 android:layout_width="fill_parent" -->
+            <!--                 android:layout_height="wrap_content" -->
+            <!--                 android:fillViewport="true" -->
+            <!--                 android:scrollbars="vertical" > -->
+
+            <!--                 <TextView -->
+            <!--                     android:id="@+id/textFuelDeliveryinfo" -->
+            <!--                     android:layout_width="wrap_content" -->
+            <!--                     android:layout_height="wrap_content" -->
+            <!--                     android:textColor="#ffffff" -->
+            <!--                     android:textSize="20dp" -->
+            <!--                      android:layout_marginTop="18dp" /> -->
+            <!--             </ScrollView> -->
+            <!--         </LinearLayout> -->
+            <!--     </LinearLayout> -->
+
+
+            <!--      <LinearLayout  -->
+            <!--         android:layout_width="match_parent" -->
+            <!--         android:layout_height="15dp" -->
+            <!--         android:layout_weight="1" -->
+            <!--        > -->
+
+            <!--     </LinearLayout> -->
+
+
+            <!--     <LinearLayout -->
+            <!--         android:id="@+id/HybridSystem" -->
+            <!--         android:layout_width="match_parent" -->
+            <!--         android:layout_height="0dp" -->
+            <!--         android:layout_weight="1" -->
+            <!--         android:orientation="vertical" -->
+            <!--         android:weightSum="10" > -->
+
+            <!--         <LinearLayout -->
+            <!--             android:layout_width="match_parent" -->
+            <!--             android:layout_height="0dp" -->
+            <!--             android:layout_weight="3" -->
+            <!--             android:gravity="center" > -->
+
+            <!--             <TextView -->
+            <!--                 android:id="@+id/textHybridSystem" -->
+            <!--                 android:layout_width="wrap_content" -->
+            <!--                 android:layout_height="wrap_content" -->
+            <!--                 android:text="Hybrid System " -->
+            <!--                 android:textColor="#ffffff" -->
+            <!--                 android:textSize="28dp" /> -->
+            <!--         </LinearLayout> -->
+
+            <!--         <LinearLayout -->
+            <!--             android:layout_width="match_parent" -->
+            <!--             android:layout_height="0dp" -->
+            <!--             android:layout_weight="7" > -->
+
+            <!--             <ScrollView -->
+            <!--                 android:id="@+id/SCROLLER_ID9" -->
+            <!--                 android:layout_width="fill_parent" -->
+            <!--                 android:layout_height="wrap_content" -->
+            <!--                 android:fillViewport="true" -->
+            <!--                 android:scrollbars="vertical" > -->
+
+            <!--                 <TextView -->
+            <!--                     android:id="@+id/textHybridSysteminfo" -->
+            <!--                     android:layout_width="wrap_content" -->
+            <!--                     android:layout_height="wrap_content" -->
+            <!--                     android:textColor="#ffffff" -->
+            <!--                     android:textSize="20dp"  -->
+            <!--                      android:layout_marginTop="18dp"/> -->
+            <!--             </ScrollView> -->
+            <!--         </LinearLayout> -->
+            <!--     </LinearLayout> -->
+
+
+            <!--      <LinearLayout  -->
+            <!--         android:layout_width="match_parent" -->
+            <!--         android:layout_height="15dp" -->
+            <!--         android:layout_weight="1" -->
+            <!--        > -->
+
+            <!--     </LinearLayout> -->
+
+
+            <!--     <LinearLayout -->
+            <!--         android:id="@+id/HighVoltageSystem" -->
+            <!--         android:layout_width="match_parent" -->
+            <!--         android:layout_height="0dp" -->
+            <!--         android:layout_weight="1" -->
+            <!--         android:orientation="vertical" -->
+            <!--         android:weightSum="10" > -->
+
+            <!--         <LinearLayout -->
+            <!--             android:layout_width="match_parent" -->
+            <!--             android:layout_height="0dp" -->
+            <!--             android:layout_weight="3" -->
+            <!--             android:gravity="center" > -->
+
+            <!--             <TextView -->
+            <!--                 android:id="@+id/textHighVoltageSystem" -->
+            <!--                 android:layout_width="wrap_content" -->
+            <!--                 android:layout_height="wrap_content" -->
+            <!--                 android:text="High Voltage System " -->
+            <!--                 android:textColor="#ffffff" -->
+            <!--                 android:textSize="28dp" /> -->
+            <!--         </LinearLayout> -->
+
+            <!--         <LinearLayout -->
+            <!--             android:layout_width="match_parent" -->
+            <!--             android:layout_height="0dp" -->
+            <!--             android:layout_weight="7" > -->
+
+            <!--             <ScrollView -->
+            <!--                 android:id="@+id/SCROLLER_ID10" -->
+            <!--                 android:layout_width="fill_parent" -->
+            <!--                 android:layout_height="wrap_content" -->
+            <!--                 android:fillViewport="true" -->
+            <!--                 android:scrollbars="vertical" > -->
+
+            <!--                 <TextView -->
+            <!--                     android:id="@+id/textHighVoltageSysteminfo" -->
+            <!--                     android:layout_width="wrap_content" -->
+            <!--                     android:layout_height="wrap_content" -->
+            <!--                     android:textColor="#ffffff" -->
+            <!--                     android:textSize="20dp"  -->
+            <!--                      android:layout_marginTop="18dp"/> -->
+            <!--             </ScrollView> -->
+            <!--         </LinearLayout> -->
+            <!--     </LinearLayout> -->
+
+
+            <!--      <LinearLayout  -->
+            <!--         android:layout_width="match_parent" -->
+            <!--         android:layout_height="15dp" -->
+            <!--         android:layout_weight="1" -->
+            <!--         > -->
+
+            <!--     </LinearLayout> -->
+
+
+            <LinearLayout
+                android:id="@+id/Note1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:weightSum="10" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:gravity="center" >
+
+                    <TextView
+                        android:id="@+id/textNote1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Note "
+                        android:textColor="#044684"
+                        android:textSize="28dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="7" >
+
+                    <ScrollView
+                        android:id="@+id/SCROLLER_ID11"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:fillViewport="true"
+                        android:scrollbars="vertical" >
+
+                        <TextView
+                            android:id="@+id/textNote1info"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#000"
+                            android:textSize="20dp"
+                            android:layout_marginTop="8dp" />
+                    </ScrollView>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_weight="1"
+                >
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/Note2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:weightSum="10" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:gravity="center" >
+
+                    <TextView
+                        android:id="@+id/textNote2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Note "
+                        android:textColor="#044684"
+                        android:textSize="28dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="7" >
+
+                    <ScrollView
+                        android:id="@+id/SCROLLER_ID12"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:fillViewport="true"
+                        android:scrollbars="vertical" >
+
+                        <TextView
+                            android:id="@+id/textNote2info"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#000"
+                            android:textSize="20dp"
+                            android:layout_marginTop="8dp"/>
+                    </ScrollView>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_weight="1"
+                >
+
+            </LinearLayout>
+
+
+                 <LinearLayout
+                     android:id="@+id/Note3"
+                     android:layout_width="match_parent"
+                     android:layout_height="0dp"
+                     android:layout_weight="1"
+                     android:orientation="vertical"
+                     android:weightSum="10" >
+
+                     <LinearLayout
+                         android:layout_width="match_parent"
+                         android:layout_height="0dp"
+                         android:layout_weight="3"
+                         android:gravity="center" >
+
+                         <TextView
+                             android:id="@+id/textNote3"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:text="Note "
+                             android:textColor="#044684"
+                             android:textSize="28dp" />
+                     </LinearLayout>
+
+                     <LinearLayout
+                         android:layout_width="match_parent"
+                         android:layout_height="0dp"
+                         android:layout_weight="7" >
+
+                         <ScrollView
+                             android:id="@+id/SCROLLER_ID13"
+                             android:layout_width="fill_parent"
+                             android:layout_height="wrap_content"
+                             android:fillViewport="true"
+                             android:scrollbars="vertical" >
+
+                             <TextView
+                                 android:id="@+id/textNote3info"
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                                 android:textColor="#000"
+                                 android:textSize="20dp"
+                                  android:layout_marginTop="18dp"/>
+                         </ScrollView>
+                     </LinearLayout>
+                 </LinearLayout>
+
+
+                  <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="15dp"
+                     android:layout_weight="1"
+                     >
+
+                 </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ShiftInterlockOverride"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:weightSum="10" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:gravity="center" >
+
+                    <TextView
+                        android:id="@+id/textShiftInterlockOverride"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Shift Interlock Override "
+                        android:textColor="#044684"
+                        android:textSize="28dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="7" >
+
+                    <ScrollView
+                        android:id="@+id/SCROLLER_ID14"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:fillViewport="true"
+                        android:scrollbars="vertical" >
+
+                        <TextView
+                            android:id="@+id/textShiftInterlockOverrideinfo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#000"
+                            android:textSize="20dp"
+                            android:layout_marginTop="8dp" />
+                    </ScrollView>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_weight="1"
+                >
+
+            </LinearLayout>
+
+
+            <!--     <LinearLayout -->
+            <!--         android:id="@+id/TireChanging" -->
+            <!--         android:layout_width="match_parent" -->
+            <!--         android:layout_height="0dp" -->
+            <!--         android:layout_weight="1" -->
+            <!--         android:orientation="vertical" -->
+            <!--         android:weightSum="10" > -->
+
+            <!--         <LinearLayout -->
+            <!--             android:layout_width="match_parent" -->
+            <!--             android:layout_height="0dp" -->
+            <!--             android:layout_weight="3" -->
+            <!--             android:gravity="center" > -->
+
+            <!--             <TextView -->
+            <!--                 android:id="@+id/textTireChanging" -->
+            <!--                 android:layout_width="wrap_content" -->
+            <!--                 android:layout_height="wrap_content" -->
+            <!--                 android:text="Tire Changing " -->
+            <!--                 android:textColor="#ffffff" -->
+            <!--                 android:textSize="28dp" /> -->
+            <!--         </LinearLayout> -->
+
+            <!--         <LinearLayout -->
+            <!--             android:layout_width="match_parent" -->
+            <!--             android:layout_height="0dp" -->
+            <!--             android:layout_weight="7" > -->
+
+            <!--             <ScrollView -->
+            <!--                 android:id="@+id/SCROLLER_ID15" -->
+            <!--                 android:layout_width="fill_parent" -->
+            <!--                 android:layout_height="wrap_content" -->
+            <!--                 android:fillViewport="true" -->
+            <!--                 android:scrollbars="vertical" > -->
+
+            <!--                 <TextView -->
+            <!--                     android:id="@+id/textTireChanginginfo" -->
+            <!--                     android:layout_width="wrap_content" -->
+            <!--                     android:layout_height="wrap_content" -->
+            <!--                     android:textColor="#ffffff" -->
+            <!--                     android:textSize="20dp" -->
+            <!--                      android:layout_marginTop="18dp" /> -->
+            <!--             </ScrollView> -->
+            <!--         </LinearLayout> -->
+            <!--     </LinearLayout> -->
+
+
+            <!--      <LinearLayout  -->
+            <!--         android:layout_width="match_parent" -->
+            <!--         android:layout_height="15dp" -->
+            <!--         android:layout_weight="1" -->
+            <!--         > -->
+
+            <!--     </LinearLayout> -->
+
+
+            <!--     <LinearLayout -->
+            <!--         android:id="@+id/EngineAccess" -->
+            <!--         android:layout_width="match_parent" -->
+            <!--         android:layout_height="0dp" -->
+            <!--         android:layout_weight="1" -->
+            <!--         android:orientation="vertical" -->
+            <!--         android:weightSum="10" > -->
+
+            <!--         <LinearLayout -->
+            <!--             android:layout_width="match_parent" -->
+            <!--             android:layout_height="0dp" -->
+            <!--             android:layout_weight="3" -->
+            <!--             android:gravity="center" > -->
+
+            <!--             <TextView -->
+            <!--                 android:id="@+id/textEngineAcess" -->
+            <!--                 android:layout_width="wrap_content" -->
+            <!--                 android:layout_height="wrap_content" -->
+            <!--                 android:text="Engine Access " -->
+            <!--                 android:textColor="#ffffff" -->
+            <!--                 android:textSize="28dp" /> -->
+            <!--         </LinearLayout> -->
+
+            <!--         <LinearLayout -->
+            <!--             android:layout_width="match_parent" -->
+            <!--             android:layout_height="0dp" -->
+            <!--             android:layout_weight="7" > -->
+
+            <!--             <ScrollView -->
+            <!--                 android:id="@+id/SCROLLER_ID16" -->
+            <!--                 android:layout_width="fill_parent" -->
+            <!--                 android:layout_height="wrap_content" -->
+            <!--                 android:fillViewport="true" -->
+            <!--                 android:scrollbars="vertical" > -->
+
+            <!--                 <TextView -->
+            <!--                     android:id="@+id/textEngineAcessinfo" -->
+            <!--                     android:layout_width="wrap_content" -->
+            <!--                     android:layout_height="wrap_content" -->
+            <!--                     android:textColor="#ffffff" -->
+            <!--                     android:textSize="20dp"  -->
+            <!--                      android:layout_marginTop="18dp"/> -->
+            <!--             </ScrollView> -->
+            <!--         </LinearLayout> -->
+            <!--     </LinearLayout> -->
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+ 
+    <!-- From: file:/home/approachit/AndroidStudioProjects/Towing_app1/app/src/main/res/layout/activity_text_towinfo.xml -->
