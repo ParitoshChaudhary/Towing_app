@@ -60,7 +60,7 @@ public class MyAdapter extends BaseAdapter {
 			
 			Typeface typeface1 = Typeface.createFromAsset(activity.getApplicationContext().getAssets(), "fonts/Helvetica.otf");
 
-	txt .setTypeface(typeface1);
+			txt .setTypeface(typeface1);
 			
 			HashMap<String, String> hashmaparray = new HashMap<String, String>();
 			hashmaparray = data.get(position);

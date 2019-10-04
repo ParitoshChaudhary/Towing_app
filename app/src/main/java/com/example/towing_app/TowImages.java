@@ -20,7 +20,7 @@ public class TowImages extends CommonActivity  {
 
 	ImageView Image1, Image2;
 
-	private static String url_CarTowImage = "http://216.224.177.43:8080/TowingApp/APIGetTowImageByCarId";
+	private static String url_CarTowImage = Constents.CONNECT_URL + "APIGetTowImageByCarId";
 	ProgressDialog pDialog;
 	String img1, img2;
 

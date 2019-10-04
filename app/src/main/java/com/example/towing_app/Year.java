@@ -38,7 +38,7 @@ public class Year extends CommonActivity implements OnItemClickListener, OnClick
 	JSONObject json;
 	TextView txt;
 	int flag;
-	private static String url_yearbymodel = "http://216.224.177.43:8080/TowingApp/APIYearByModels";
+	private static String url_yearbymodel = Constents.CONNECT_URL + "APIYearByModels";
 	ArrayList<HashMap<String, String>> arraysyear;
 	HashMap<String, String> hashyear;
 	SharedPreferences sharedPreferences;

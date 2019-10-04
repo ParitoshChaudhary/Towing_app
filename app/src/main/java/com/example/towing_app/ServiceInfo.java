@@ -33,7 +33,7 @@ public class ServiceInfo extends CommonActivity implements OnClickListener {
 	String txtNote3,
 			txtHhybridSystem,txtCaution3,txtFuelDelivery;
 
-	private static String url_serviceinfo = "http://216.224.177.43:8080/TowingApp/APIServiceInfoByCarId";
+	private static String url_serviceinfo = Constents.CONNECT_URL + "APIServiceInfoByCarId";
 	ProgressDialog pDialog;
 	int flag;
 	JSONParser jParse = new JSONParser();
@@ -342,12 +342,6 @@ public class ServiceInfo extends CommonActivity implements OnClickListener {
 				else {
 					textEngineAcessinfo.setText(txtEngineAccess);
 				}
-
-
-
-
-
-
 
 			}
 		}

@@ -37,7 +37,7 @@ public class AllModels extends CommonActivity implements OnItemClickListener, On
 	JSONParser jParse = new JSONParser();
 	JSONObject json;
 	int flag;
-	private static String url_allmodels = "http://216.224.177.43:8080/TowingApp/APIModelsByManufaturer";
+	private static String url_allmodels = Constents.CONNECT_URL + "APIModelsByManufaturer";
 	ArrayList<HashMap<String, String>> arraysmodels;
 	HashMap<String, String> hashmodels;
 	SharedPreferences sharedPreferences;
@@ -191,4 +191,13 @@ public class AllModels extends CommonActivity implements OnItemClickListener, On
 		}
 		
 	}
+
+	@Override
+	public void onDestroy(){
+		super.onDestroy();
+		if ( pDialog!=null && pDialog.isShowing() ){
+			pDialog.cancel();
+		}
+	}
+
 }

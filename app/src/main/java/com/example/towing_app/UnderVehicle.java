@@ -21,7 +21,7 @@ public class UnderVehicle extends Activity implements OnClickListener{
 	
 	TextView txt,text;
 	LinearLayout UnderHome;
-	private static String url_undervehicle = "http://216.224.177.43:8080/TowingApp/APIUnderVehicleStowedSpareWheels";
+	private static String url_undervehicle = Constents.CONNECT_URL + "APIUnderVehicleStowedSpareWheels";
 	ProgressDialog pDialog;
 	int flag;
 	JSONParser jParse = new JSONParser();
@@ -81,8 +81,6 @@ public class UnderVehicle extends Activity implements OnClickListener{
 		protected String doInBackground(String... args) {
 			// Getting username and password from user input
 
-
-
 			List<NameValuePair> params = new ArrayList<NameValuePair>();
 
 			json = jParse.makeHttpRequest(url_undervehicle, "POST", params);
@@ -98,16 +96,10 @@ public class UnderVehicle extends Activity implements OnClickListener{
 				} else {
 					flag = 1;
 
-
-
 					if (jObj.toString().contains("info"))
 					{
 						info = jObj.getString("info");
 					}
-
-
-
-
 				}
 
 			} catch (Exception e) {
@@ -127,13 +119,7 @@ public class UnderVehicle extends Activity implements OnClickListener{
 
 			} else {
 
-
-                 text.setText(info);
-
-
-
-
-
+                text.setText(info);
 
 			}
 		}

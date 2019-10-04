@@ -21,7 +21,7 @@ public class JSPrecaution extends AppCompatActivity {
     JSONObject json;
     int flag;
     String info, note1,note2;
-    private static String url_allmodels = "http://216.224.177.43:8080/TowingApp/APIJumpStartingInstructionsAndPrecautions";
+    private static String url_allmodels = Constents.CONNECT_URL + "APIJumpStartingInstructionsAndPrecautions";
 
 
     @Override

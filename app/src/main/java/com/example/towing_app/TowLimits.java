@@ -22,7 +22,7 @@ import java.util.List;
 
 public class TowLimits extends CommonActivity implements View.OnClickListener {
 
-    private static String url_CarInfobyId = "http://216.224.177.43:8080/TowingApp/APICarInfoById";
+    private static String url_CarInfobyId = Constents.CONNECT_URL + "APICarInfoById";
     TextView towimages;
     ImageView imghome;
     TextView frontAmph,frontMmph,rearAmph,rearMmph;

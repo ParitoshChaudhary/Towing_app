@@ -41,7 +41,7 @@ public class TowInfo extends Activity implements OnClickListener {
 	String txtShiftIntelockOverride,txtNote2,txtNote3,txtEngineAccess,txtElectronicKey,
 	txtHhybridSystem,txtCaution2,txtCaution3,txtElectronicParkBrake,txtFuelDelivery;
 	
-	private static String url_CarInfobyCarId = "http://216.224.177.43:8080/TowingApp/APICarInfoByCarId";
+	private static String url_CarInfobyCarId = Constents.CONNECT_URL + "APICarInfoByCarId";
 	ProgressDialog pDialog;
 	int flag;
 	JSONParser jParse = new JSONParser();
@@ -473,10 +473,6 @@ public class TowInfo extends Activity implements OnClickListener {
 //
 //		listDataHeader = new ArrayList<String>();
 //		listDataChild = new HashMap<String, List<String>>();
-//		
-//		
-//		
-//		
 //		
 //		
 //		if ( txtTowInfo != null)

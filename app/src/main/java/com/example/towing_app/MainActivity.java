@@ -19,12 +19,8 @@ public class MainActivity extends CommonActivity implements OnClickListener {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		
-		
-				
 			
 		setContentView(R.layout.activity_main);
-
 
 		llequipment= (LinearLayout) findViewById(R.id.llequipment);
 		llothersearch = (LinearLayout) findViewById(R.id.llothersearch);

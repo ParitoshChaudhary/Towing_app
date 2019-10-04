@@ -22,7 +22,7 @@ public class GenJumpStart extends Activity implements OnClickListener{
 	
 	TextView txt,info,textcol8,textcol9;
 	LinearLayout GenJumpStart,jsprecaution;
-	private static String url_jump = "http://216.224.177.43:8080/TowingApp/APIGeneralJumpStartingInstructions";
+	private static String url_jump = Constents.CONNECT_URL + "APIGeneralJumpStartingInstructions";
 	ProgressDialog pDialog;
 	int flag;
 	JSONParser jParse = new JSONParser();
@@ -111,8 +111,6 @@ public class GenJumpStart extends Activity implements OnClickListener{
 			try {
 				// JSONArray jsonary = json.getJSONArray("info");
 
-
-
 				JSONArray jsonary = json.getJSONArray("info");
 
 
@@ -129,11 +127,6 @@ public class GenJumpStart extends Activity implements OnClickListener{
 					}
 				}
 
-
-
-
-
-
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
 				System.out.println("hjghgu=" + e);
@@ -147,17 +140,9 @@ public class GenJumpStart extends Activity implements OnClickListener{
 			super.onPostExecute(result);
 			pDialog.cancel();
 
-
-
-				textcol8.setText(column1);
-				textcol9.setText(column2);
+			textcol8.setText(column1);
+			textcol9.setText(column2);
 			info.setText(information);
-
-
-
-
-
-
 
 			}
 		}

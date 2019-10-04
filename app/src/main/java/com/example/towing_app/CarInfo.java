@@ -31,7 +31,7 @@ public class CarInfo extends CommonActivity implements OnClickListener {
 	JSONObject json;
 	int flag;
 	ImageView imghome;
-	private static String url_search = "http://216.224.177.43:8080/TowingApp/Search";
+	private static String url_search = Constents.CONNECT_URL + "Search";
 	SharedPreferences sharedPreferences;
 	String carModel,carName,carYear,image,list;
 	TextView manufacturename, modelname,year,Textselect,cautiontext,caution,txtmanufacture,txtmodel,txtyear;

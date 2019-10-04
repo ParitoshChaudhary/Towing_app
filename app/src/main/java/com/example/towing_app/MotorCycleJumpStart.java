@@ -21,7 +21,7 @@ public class MotorCycleJumpStart extends Activity implements OnClickListener{
 	
 	TextView txt,text;
 	LinearLayout Motorhome;
-	private static String url_specialoil = "http://216.224.177.43:8080/TowingApp/APIMotorCycleJumpStartingPrecautions";
+	private static String url_specialoil = Constents.CONNECT_URL + "APIMotorCycleJumpStartingPrecautions";
 	ProgressDialog pDialog;
 	int flag;
 	JSONParser jParse = new JSONParser();

@@ -26,7 +26,7 @@ public class General_instruction extends Activity implements OnClickListener {
 	TextView txt,text;
 	LinearLayout Gen_home;
 
-	private static String url_genralinstruction = "http://216.224.177.43:8080/TowingApp/APIGeneralTowingInstructions";
+	private static String url_genralinstruction = Constents.CONNECT_URL + "APIGeneralTowingInstructions";
 	ProgressDialog pDialog;
 	int flag;
 	JSONParser jParse = new JSONParser();

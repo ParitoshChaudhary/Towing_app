@@ -23,7 +23,7 @@ public class Standardequipment extends CommonActivity implements OnClickListener
 	ImageView image;
 	TextView txt,text;
 	LinearLayout StandardHome, MyImages;
-	private static String url_standard = "http://216.224.177.43:8080/TowingApp/APIStandardEquipment";
+	private static String url_standard = Constents.CONNECT_URL + "APIStandardEquipment";
 	ProgressDialog pDialog;
 	int flag;
 	JSONParser jParse = new JSONParser();
@@ -113,8 +113,6 @@ public class Standardequipment extends CommonActivity implements OnClickListener
 		protected String doInBackground(String... args) {
 			// Getting username and password from user input
 
-
-
 			List<NameValuePair> params = new ArrayList<NameValuePair>();
 
 			json = jParse.makeHttpRequest(url_standard, "POST", params);
@@ -124,21 +122,15 @@ public class Standardequipment extends CommonActivity implements OnClickListener
 
 				JSONObject jObj = json.getJSONObject("info");
 
-
 				if (jObj.equals("fail")) {
 					flag = 0;
 				} else {
 					flag = 1;
 
-
-
 					if (jObj.toString().contains("txtInfo"))
 					{
 						info = jObj.getString("txtInfo");
 					}
-
-
-
 
 				}
 
@@ -159,13 +151,7 @@ public class Standardequipment extends CommonActivity implements OnClickListener
 
 			} else {
 
-
 				text.setText(info);
-
-
-
-
-
 
 			}
 		}

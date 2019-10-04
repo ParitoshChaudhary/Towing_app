@@ -31,7 +31,7 @@ public class TextTowinfo extends CommonActivity implements OnClickListener {
 	String txtShiftIntelockOverride,txtNote2,txtNote3,txtEngineAccess,txtElectronicKey,
 			txtHhybridSystem,txtCaution2,txtCaution3,txtElectronicParkBrake,txtFuelDelivery;
 
-	private static String url_CarInfobyCarId = "http://216.224.177.43:8080/TowingApp/APICarInfoByCarId";
+	private static String url_CarInfobyCarId = Constents.CONNECT_URL + "APICarInfoByCarId";
 	ProgressDialog pDialog;
 	int flag;
 	JSONParser jParse = new JSONParser();
@@ -401,13 +401,6 @@ public class TextTowinfo extends CommonActivity implements OnClickListener {
 				else {
 					textShiftInterlockOverrideinfo .setText(txtShiftIntelockOverride);
 				}
-
-
-
-
-
-
-
 			}
 		}
 

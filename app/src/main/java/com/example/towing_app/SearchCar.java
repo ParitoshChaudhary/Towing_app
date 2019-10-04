@@ -33,7 +33,7 @@ public class SearchCar extends CommonActivity implements OnClickListener  {
 	JSONParser jParse = new JSONParser();
 	JSONObject json;
 	int flag;
-	private static String url_search = "http://216.224.177.43:8080/TowingApp/Search";
+	private static String url_search = Constents.CONNECT_URL + "Search";
 	ArrayList<HashMap<String, String>> arraysyear;
 	HashMap<String, String> hashyear;
 	SharedPreferences sharedPreferences;

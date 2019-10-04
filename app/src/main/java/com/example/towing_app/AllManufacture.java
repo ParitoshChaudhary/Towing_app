@@ -32,7 +32,7 @@ public class AllManufacture extends CommonActivity implements OnItemClickListene
 	JSONParser jParse = new JSONParser();
 	JSONObject json;
 	int flag;
-	private static String url_allmodels = "http://216.224.177.43:8080/TowingApp/APIAllModels";
+	private static String url_allmodels = Constents.CONNECT_URL + "APIAllModels";
 	ArrayList<HashMap<String, String>> arraysmodels;
 	HashMap<String, String> hashmodels;
 	SharedPreferences sharedPreferences;

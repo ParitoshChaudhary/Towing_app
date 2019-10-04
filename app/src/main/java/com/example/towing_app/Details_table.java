@@ -34,7 +34,7 @@ public class Details_table extends CommonActivity implements View.OnClickListene
     JSONObject json;
     int flag;
     int i;
-    private static String url_search = "http://216.224.177.43:8080/TowingApp/Search";
+    private static String url_search = Constents.CONNECT_URL + "Search";
     ArrayList<HashMap<String, String>> arraysyear;
     HashMap<String, String> hashyear;
     SharedPreferences sharedPreferences;

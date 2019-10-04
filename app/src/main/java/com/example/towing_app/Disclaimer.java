@@ -36,7 +36,7 @@ public class Disclaimer extends CommonActivity implements OnClickListener {
 	HashMap<String, List<String>> listDataChild;
 	SharedPreferences sharedPreferences;
 	int flag;
-	private static String url_fornet = "http://216.224.177.43:8080/TowingApp/HelloServlet";
+	private static String url_fornet = Constents.CONNECT_URL + "HelloServlet";
 	TextView trademarks, copyright, general, termination, liability, unlawful, links, modification, info;
 	String strtrademarks, strcopyright, strgeneral, strtermination, strliability, strunlawful, strlinks, strmodification, strinfo;
 

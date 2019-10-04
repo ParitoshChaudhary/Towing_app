@@ -21,7 +21,7 @@ public class SpecialOil extends Activity implements OnClickListener {
 
 	TextView txt,text;
 	LinearLayout SplOil;
-	private static String url_specialoil = "http://216.224.177.43:8080/TowingApp/APISpecialOilPan";
+	private static String url_specialoil = Constents.CONNECT_URL + "APISpecialOilPan";
 	ProgressDialog pDialog;
 	int flag;
 	JSONParser jParse = new JSONParser();
